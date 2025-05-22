@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "excel-stdio": {
+      "command": "uvx",
+      "args": [
+        "excel-mcp-server",
+        "stdio"
+      ],
+      "alwaysAllow": [
+        "get_workbook_metadata",
+        "read_data_from_excel",
+        "apply_formula",
+        "copy_range",
+        "validate_formula_syntax",
+        "format_range",
+        "write_data_to_excel",
+        "create_workbook",
+        "create_worksheet",
+        "create_chart",
+        "create_pivot_table",
+        "copy_worksheet",
+        "delete_worksheet",
+        "rename_worksheet",
+        "merge_cells",
+        "unmerge_cells",
+        "delete_range",
+        "validate_excel_range"
+      ],
+      "timeout": 60
+    }
+  }
+}

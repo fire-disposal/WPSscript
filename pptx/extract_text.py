@@ -9,7 +9,7 @@ import os
 from pptx import Presentation
 
 # 文件读取部分，便于修改需读取文件名
-input_file = "example.pptx"  # 请修改为实际的文件名
+input_file = "护理教育施鸿宁组课件.pptx"  # 请修改为实际的文件名
 
 def extract_text_from_shape(shape):
     """
