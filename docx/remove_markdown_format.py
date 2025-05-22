@@ -40,8 +40,8 @@ def remove_markdown_format(doc_path):
     
     # 遍历所有段落
     for para in doc.paragraphs:
-        # 检查是否有连续的***（两个及以上）
-        if '**' in para.text:
+        # *必须死
+        if '*' in para.text:
             original_text = para.text
             # 使用正则表达式匹配两个及以上连续的*
             new_text = re.sub(r'\*{2,}', '', original_text)
