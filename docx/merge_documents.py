@@ -12,8 +12,7 @@ from datetime import datetime
 # 文件读取部分，便于修改需读取文件名
 input_files = [
     "document1.docx",
-    "document2.docx",
-    "document3.docx"
+    "document2.docx"
 ]  # 请修改为实际的文件名列表
 
 # 输出文件名

@@ -14,7 +14,6 @@ input_file = "example.docx"  # 请修改为实际的文件名
 replace_dict = {
     "原文本1": "替换文本1",
     "原文本2": "替换文本2",
-    "原文本3": "替换文本3",
 }
 
 def batch_replace_text(doc_path, replacements):
@@ -82,8 +81,7 @@ def batch_replace_text(doc_path, replacements):
                                     for run in para.runs[1:]:
                                         run.text = ""
                                     replace_count += 1
-                                    print(f"表格中替换: '{old_text}' -> '{new_text}'")
-    
+                                    print(f"表格中替换: '{old_text}' -> '{new_text}'") 
     print(f"共完成 {replace_count} 处替换")
     return doc
 

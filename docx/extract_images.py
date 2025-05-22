@@ -11,7 +11,7 @@ from docx import Document
 from PIL import Image
 
 # 文件读取部分，便于修改需读取文件名
-input_file = "example.docx"  # 请修改为实际的文件名
+input_file = "document.docx"  # 请修改为实际的文件名
 
 def extract_images(doc_path):
     """
