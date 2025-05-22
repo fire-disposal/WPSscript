@@ -93,3 +93,6 @@ target/
 # 依赖管理
 node_modules/
 jspm_packages/
+
+# Roo相关
+.roo/
