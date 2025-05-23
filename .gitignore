@@ -37,11 +37,6 @@ venv.bak/
 
 # VSCode相关
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
 .history/
 
 # 操作系统相关
